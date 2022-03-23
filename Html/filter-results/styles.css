@@ -1,0 +1,50 @@
+nav{
+    background-color: red;
+    color: #fff;
+}
+
+
+.logo{
+    width: 40px;
+    height: 40px;
+    color: #eb2929;
+    background-color: #fff;
+    border-radius: 50%;
+    font-size: 25px;
+    padding-left: 10px;
+     
+}
+
+
+.page-heading{
+    padding: 5px;
+    font-family: poppins;
+    font-size: 25px;
+    color:#192f60;
+    height: 45px;
+    margin-bottom: 30px;
+}
+.filters{
+    background-color: #5a6886;
+}
+
+.card{
+    border-radius: 0%;
+    box-shadow: 0px 3px 3px 0px #dee2e6;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+img{
+    border-radius: 10%;
+    margin-left: 15px;
+}
+.info{
+    padding-left: 15px;
+}
+h5{
+    height: 43px; 
+    font-family: Poppins; 
+    font-size: 30px; 
+    color: #192f60;
+}

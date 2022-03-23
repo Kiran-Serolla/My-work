@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css" />
+    <title>Assignment1-HTML,CSS</title>
+</head>
+
+<body>
+    <!-- nav bar -->
+    <nav class="navbar navbar-expand-sm navbar-dark">
+        <div class="container-fluid">
+            <div class="logo-circle">
+                <span class="logo"> e! </span>
+                
+            </div>
+            <div>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item ">
+                        <a href="#" class="nav-link">Login</a>
+                        </li>
+                    <li class="nav-item create-account">
+                        <a href="#" class="nav-link ">Create Account</a>
+                        </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- nav bar ends here -->
+<div class="container">
+    <!-- page title -->
+    <div class="row">
+        <div class="col-md-12 heading">
+            <span>Breakfast places in Mumbai</span> 
+           
+        </div>
+        <!-- end of page title -->
+
+        <!-- filter and results section -->
+        <div class="row">
+
+            <!-- Filters column -->
+
+            <div class="col-md-3 card " >
+                <h5 class="card-title"> Filters </h4>
+                <!-- select location -->
+                <span class="filter-type"> Select Location</span>
+                <select name="location" id="location" class="form-select">
+                    <option selected>Select Location</option>
+                     <option value="1">Andheri</option>
+                     <option value="2">Juhu</option>
+                     <option value="3">Bandra</option>
+                </select>
+                <br>
+                <!-- end of select location -->
+
+                <!-- select cusine filter -->
+                <span class="filter-type"> Cusine </span>
+                
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" value="North Indian" id="NI">
+                    <label for="NI" class="form-check-label" > North Indian</label>
+                </div>
+
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" value="South Indian" id="SI">
+                    <label for="SI" class="form-check-label" >South Indian</label>
+                </div>
+
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" value="Chinese" id="CH">
+                    <label for="CH" class="form-check-label" >Chineese</label>
+                </div>
+
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" value="Street Food" id="SF">
+                    <label for="SF" class="form-check-label" >Street Food</label>
+                </div>
+                <br>
+                <!-- end of select cusne filter -->
+
+                <!-- cost filter -->
+
+                <span class="filter-type"> Cost for two</span>
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" name="cost" id="5">
+                    <label for="5" class="form-check-label"> less than  ₹500 </label>
+                </div>
+
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" name="cost" id="5-10">
+                    <label for="5-10" class="form-check-label"> ₹500 - 1000 </label>
+                </div>
+
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" name="cost" id="10-15">
+                    <label for="10-15" class="form-check-label">  ₹1000 - 1500  </label>
+                </div>
+
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" name="cost" id="15-20">
+                    <label for="5" class="form-check-label"> ₹1500-2000 </label>
+                </div>
+
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" name="cost" id="5">
+                    <label for="5" class="form-check-label"> ₹2000+ </label>
+                </div> <br>
+                <!-- end of cost filter -->
+
+                <!-- sort filter -->
+                <span class="filter-type"> Sort</span>
+
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" name="sort" id="l-h">
+                    <label for="l-h" class="form-check-label"> low to high </label>
+                </div>
+
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" name="sort" id="h-l">
+                    <label for="h-l" class="form-check-label"> high to low </label>
+                </div><br>
+                <!-- end of sort filter -->
+            </div>
+                
+               <!-- end of filters column -->
+
+            <!-- results section -->
+            <!-- This part is shown in different color to 
+            differentiate between two sections of the page -->
+
+            <div class="col-md-9 results"> Results</div>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>

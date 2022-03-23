@@ -1,0 +1,56 @@
+nav{
+    background-color: red;
+    color: #fff;
+}
+.logo-circle{
+    width: 30px;
+    height: 28px;
+    border: solid 1px #eb2929; ;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.logo{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 20;
+    padding: 5px;
+    color: #eb2929; 
+}
+
+.create-account{
+    border: solid 1px #fff;
+}
+
+.heading{
+    padding: 5px;
+    font-family: poppins;
+    font-size: 30px;
+    font-weight: bold;
+    color:#192f60;
+    height: 45px;
+    margin-bottom: 30px;
+}
+.card{
+    box-shadow: 0px 3px 3px 0px #dee2e6;
+    margin-bottom: 10px;
+    
+   }
+.card-title{
+    height: 43px; 
+    font-family: Poppins; 
+    font-size: 20px; 
+    color: #192f60;
+    margin-top: 10px;
+}
+.filter-type{
+    height: 25px; 
+    font-family: Poppins; 
+    font-size: 15px; 
+    font-weight: bold;
+    color: #192f60; 
+    margin-bottom: 10px;
+}
+.results{
+    background-color: coral;
+}
