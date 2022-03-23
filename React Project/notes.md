@@ -1,0 +1,1 @@
+This is a react project to demonstrate the use of different React concepts like useState, useEffect, Modal
